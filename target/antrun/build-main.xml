@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\devops-pratice\maven-pratice\bus-train-ticket\bus-train-ticket\target/bus-train-ticket.zip">
+    <zipfileset includes="lib/**" dir="C:\devops-pratice\maven-pratice\bus-train-ticket\bus-train-ticket\target"/>
+    <zipfileset includes="bus-train-ticket.jar" dir="C:\devops-pratice\maven-pratice\bus-train-ticket\bus-train-ticket\target"/>
+    <zipfileset includes="readme.txt" dir="C:\devops-pratice\maven-pratice\bus-train-ticket\bus-train-ticket"/>
+  </zip>
+</target>
+</project>
